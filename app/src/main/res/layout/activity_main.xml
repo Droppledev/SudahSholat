@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/linear_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_shubuh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shubuh"
+                android:textSize="12sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/cb_dhuhur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhuhur"
+                android:textSize="12sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/cb_ashar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ashar"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_maghrib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maghrib"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_isya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isya"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
